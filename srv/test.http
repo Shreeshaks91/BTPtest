@@ -1,0 +1,1 @@
+GET http://localhost:4004/odata/v4/myservice/orderset?$filter=stock gt 40 & author_id gt 12

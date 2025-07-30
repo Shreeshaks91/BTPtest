@@ -1,0 +1,9 @@
+---
+applications:
+  - name: helloworld123
+    path: .
+    memory: 128M
+    buildpacks:
+      - nodejs_buildpack
+    command: npm start
+    random-route: true
